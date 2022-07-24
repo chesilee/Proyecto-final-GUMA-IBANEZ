@@ -1,0 +1,97 @@
+ @import url('https://fonts.googleapis.com/css2?family=&family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* TITULO PRINCIPAL DE TODOS LOS HTML */
+.titulo_xl{
+    background-color: black;
+    color: white;
+}
+
+
+/* INDEX */
+.mx-auto img{
+    width: 150px;
+}
+#botonera{
+    background: linear-gradient(to right, black, rgb(51, 46, 46), rgb(124, 108, 108));
+}
+
+nav ul li a:hover{
+    color: grey;
+    font-weight: 600;
+}
+
+nav div ul li a{
+    color: white;
+    font-size: 0.6rem;
+}
+
+.text-center iframe{
+    width: auto;
+}
+/* REVISAR EN TODOS LOS HTML */
+.container{
+    display: flex;
+}
+
+/* COMPRA.HTML */
+.font_autos{
+    color:black;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* VENTA.HTML */
+.form-label{
+    color:black;
+    font-weight: 500;
+}
+
+@media (min-width:300px){
+	.mx-auto img{
+		width: 200px;
+	}
+}
+@media (min-width:576px){
+	.mx-auto img{
+		width: 300px;
+	}
+}   
+@media (min-width:768px){
+	.mx-auto img{
+		width: 300px;
+	} 
+
+    nav div ul li a{
+        color: white;
+        font-size: 1.5rem;
+    }
+    nav div ul li{
+        padding: 0 20px;
+    }
+}
+@media (min-width:1024px){
+	.mx-auto img{
+		width: 400px;
+	}
+    nav div ul li a{
+        color: white;
+        font-size: 2rem;
+    }
+    nav div ul li{
+        padding: 0 25px;
+    }
+}
+@media (min-width:1366px){
+	.mx-auto img{
+		width: 500px;
+	}
+    nav div ul li{
+        padding: 0 40px;
+    }
+}
